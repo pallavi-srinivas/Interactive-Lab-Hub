@@ -2,9 +2,9 @@
 
 _This project is to be done in teams of 2._
 
-**NAME OF BOTH COLLABORATOR(S) HERE**
+**Pallavi Srinivas (ps2269), Abiola Bolaji (ab3394)**
 
-**THE MASTERWORK YOU DREW FROM THE HAT:**
+**Paul Revere's Lanterns: Old North Church in 1775**
 
 ---
 
@@ -89,8 +89,12 @@ the interaction*:
 
   Sometimes the details of how the interaction worked are lost in history. Try filling it in with your imagination!
 
-**Describe your masterwork here, in your own words. What is the core interaction
-someone would recognize it by?**
+The users of Paul Revere’s lanterns were soldiers who used the lightning as means to communicate important information. 
+Response warrants how the Americans would respond or prepare for a land attack vs a sea attack
+The American soldiers/settlers would be present and their reactions depend on which lantern is lit 
+I.e if one lantern is lit soldiers may prepare boots for walking and setting up a land defense compared to if f two then by sea 
+The piece is a central component of the American Revolutionary war. 
+
 
 ## Part A. Plan
 
@@ -105,6 +109,15 @@ For your masterwork, reconstruct the interaction as a scene:
 
 **Describe your setting, players, activity, and goals here.**
 
+- **Setting:** Old North Church in 1775
+
+- **Players:** A soldier near the Old North Church who is on guard at night awaiting the signal. Additionally, townspeople are also warned. 
+
+- **Activity:** The soldiers notice the number of lanterns that are present to deduce the next steps they may need to take against the British (prepare for battle or wait).
+
+- **Goals:** Each solider is trying to understand what the code of the lanterns means so awaiting for the next signal to know how to act
+
+
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
 don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
 and the people around it. If you're new to storyboarding, read
@@ -112,7 +125,6 @@ and the people around it. If you're new to storyboarding, read
 
 **Include pictures of your storyboards here.**
 
-Use the storyboards to decide what interaction to prototype.
 
 **Summarize the feedback you got here.**
 
