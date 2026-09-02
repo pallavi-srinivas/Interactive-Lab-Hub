@@ -1,3 +1,5 @@
+<img width="633" height="246" alt="Screenshot 2026-09-02 at 6 17 45 PM" src="https://github.com/user-attachments/assets/1c6ccc8f-4667-4f23-bf50-3bbdb639e90c" />
+<img width="633" height="246" alt="Screenshot 2026-09-02 at 6 17 45 PM" src="https://github.com/user-attachments/assets/08e88125-56b2-4125-8e26-5e803fb360a9" />
 # Recreating the Masters of Interactive Light
 
 _This project is to be done in teams of 2._
@@ -124,6 +126,7 @@ and the people around it. If you're new to storyboarding, read
 [this explanation](https://www.nngroup.com/articles/storyboards-visualize-ideas/).
 
 **Include pictures of your storyboards here.**
+<img width="633" height="246" alt="Screenshot 2026-09-02 at 6 17 45 PM" src="https://github.com/user-attachments/assets/7572b546-ab19-4667-8e38-aa03964e856b" />
 
 
 
