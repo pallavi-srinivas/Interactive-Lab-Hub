@@ -123,7 +123,6 @@ don't need to be beautiful, but they must capture and communicate not only the b
 and the people around it. If you're new to storyboarding, read
 [this explanation](https://www.nngroup.com/articles/storyboards-visualize-ideas/).
 
-**Include pictures of your storyboards here.**
 <img width="633" height="246" alt="Screenshot 2026-09-02 at 6 17 45 PM" src="https://github.com/user-attachments/assets/7572b546-ab19-4667-8e38-aa03964e856b" />
 
 
