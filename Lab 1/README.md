@@ -115,7 +115,7 @@ For your masterwork, reconstruct the interaction as a scene:
 
 - **Activity:** The soldiers notice the number of lanterns that are present to deduce the next steps they may need to take against the British (prepare for battle or wait).
 
-- **Goals:** Each solider is trying to understand what the code of the lanterns means so awaiting for the next signal to know how to act
+- **Goals:** Each solider is trying to understand what the code of the lanterns means so awaiting for the next signal to know how to act and how to prepare for battle.
 
 
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
@@ -136,11 +136,13 @@ is doing what you've scripted — a person can wave a flashlight, or you can nar
 it aloud.
 
 **Are there things that seemed better on paper than when acted out?**
+It's easier to get the setting of the scenario on paper rather than acting it out. This is because the lanterns are placed outside of a church in the 1700's, which make it evident that it is a major historical event. This can be easily depicted through a drawing of cobblestone streets, horses, colonial buildings, and more.
 
 **Did new ideas about the piece surface once you were on your feet?**
+Not that much, we actually had to tone it down when acting considering the constraints we had regarding the setting of the lightwork.
 
 **Are there key moments in the interaction where things could go in a different direction?**
-Iterate your storyboards to capture key non-sequential aspects of the interaction. 
+Depending on the number of lamps that are lit, the interaction may go in a different direction. The crux of the interaction is that the user looks at the number of lamps that are lit to determine the soldiers best course of action. In reality, multiple things can happen to cause the lamps to provide incorrect information.
 
 ## Part C. Prototype the Light (light first!)
 
@@ -197,6 +199,8 @@ https://drive.google.com/file/d/1Y3zQLlVRPd6w7W8Ssoqe9VOqgTHRqemG/view?usp=shari
 acknowledging their contributions, and credit any other influences (YouTube,
 Github, Twitter, a friend who lent you a lamp) that informed your recreation.
 
+Abiola Bolaji (ab3394)
+
 ---
 
 # Part 2 — ReMastering the light
@@ -243,7 +247,7 @@ your response engages with what your master was really doing.
 **Remix Info**
 To influence believability of the light source and make the user believe that it truly a lamp, we got a fire crackling audio from YouTube to play whenever the hex-code of the color of the light changed, indicating that the lamp is lit. We put the audio file in the static folder and and edited the index.js file to indicate the system to play the audio only during color changes and to play the audio only once. 
 
-We can improve upon this by making the audio louder for brighter colors and quieter for darker colors.
+We can improve upon this by making the audio louder for brighter colors and quieter for darker colors. Right now any light change results in the same audio being played, but in reality fire is a dynamic element and sounds different every second. Adding this gradual change would make it more believable.
 
 ---
 
