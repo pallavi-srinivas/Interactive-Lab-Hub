@@ -210,8 +210,17 @@ videos, and give them reactions and feedback: tell them what you saw happening,
 guess the masterwork and the goals of the characters, and ask about anything that
 wasn't clear.
 
-**Who were the other groups you kibitzed with? Add links to their project pages here.**
-**Summarize the feedback you got from your partners here.**
+Ani: (https://github.com/anihadagali7/Interactive-Lab-Hub/tree/anihadagali7-Aug26-Lab/Lab%201)
+The lanterns from Paul Revere are a famous and historical piece of interactive light. It symbolizes if there is an attack happening if the light is on. It is more about conveying a message and letting people know what to do rather than an actual product. The storyboard illustrates a scenario where the soldier sees that the lanterns are on and then alerts/warns others about the incoming attack. This chain of lights will indicate quickly to a larger group of people rather than relying on other forms of communication. The video is a bit hard to understand as to what is happening, but after reading the report, it is clear that the soldier sees the lantern and is scared/shocked of the oncoming attack.
+
+Pallavi: (https://github.com/pk633-cu/Interactive-Lab-Hub/blob/Fall2026/Lab%201/README.md)
+I think the interaction was great! It was clear that the interaction was about Paul Revere's Lantern. One thing that I would add is more scenery in the background (maybe a drawn out church) so the setting is more clear.
+
+Alison: (https://github.com/Cyalisonliu/Interactive-Lab-Hub/tree/Fall2026/Lab%201#part-f-record)
+I like the interaction that captures the moment when that person saw the light on.
+But I mistakenly thought it was a motion-sensor light because the light turns off immediately after the person walks away. I feel it would be easier to understand if the actor were holding something symbolic.
+
+
 
 ## Remix, Update, or Critique the Master
 
