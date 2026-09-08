@@ -240,8 +240,10 @@ combine them):
 We will grade this second pass with an emphasis on **creativity** and on how well
 your response engages with what your master was really doing.
 
-**Document everything here — especially the storyboard and video. Photos of the
-prototype are great too.**
+**Remix Info**
+To influence believability of the light source and make the user believe that it truly a lamp, we got a fire crackling audio from YouTube to play whenever the hex-code of the color of the light changed, indicating that the lamp is lit. We put the audio file in the static folder and and edited the index.js file to indicate the system to play the audio only during color changes and to play the audio only once. 
+
+We can improve upon this by making the audio louder for brighter colors and quieter for darker colors.
 
 ---
 
