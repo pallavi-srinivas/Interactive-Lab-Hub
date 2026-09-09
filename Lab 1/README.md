@@ -195,10 +195,6 @@ https://drive.google.com/file/d/1ysYyZU4Gxwz5uTE3DxNIvmBnSPzKik2v/view?usp=shari
 https://drive.google.com/file/d/1Y3zQLlVRPd6w7W8Ssoqe9VOqgTHRqemG/view?usp=sharing
 
 
-**Please indicate who you collaborated with on this lab.** Be generous in
-acknowledging their contributions, and credit any other influences (YouTube,
-Github, Twitter, a friend who lent you a lamp) that informed your recreation.
-
 Abiola Bolaji (ab3394)
 
 ---
@@ -228,23 +224,6 @@ But I mistakenly thought it was a motion-sensor light because the light turns of
 
 ## Remix, Update, or Critique the Master
 
-Now that you understand your masterwork from the inside, respond to it. Do the
-recreation again, but this time make it your own — pick one of these moves (or
-combine them):
-
-1. **Remix the modality.** Your recreation no longer has to (just) use light. Use
-   vibration, sound, motion, heat — whatever best carries the interaction. Feel
-   free to fork and modify the Tinkerbelle code. (Add your updates to this lab's folder!)
-2. **Update it.** Redesign the piece for today's context, or for a setting its
-   creators never imagined (the piece with roommates in the room, with children
-   present, on a phone, in a car).
-3. **Fix its weaknesses.** You identified this master's strengths and weaknesses
-   in Part 0 — now address a weakness, or push a strength further.
-
-We will grade this second pass with an emphasis on **creativity** and on how well
-your response engages with what your master was really doing.
-
-**Remix Info**
 To influence believability of the light source and make the user believe that it truly a lamp, we got a fire crackling audio from YouTube to play whenever the hex-code of the color of the light changed, indicating that the lamp is lit. We put the audio file in the static folder and and edited the index.js file to indicate the system to play the audio only during color changes and to play the audio only once. 
 
 We can improve upon this by making the audio louder for brighter colors and quieter for darker colors. Right now any light change results in the same audio being played, but in reality fire is a dynamic element and sounds different every second. Adding this gradual change would make it more believable.
