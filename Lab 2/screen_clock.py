@@ -1,4 +1,5 @@
 import time
+from time import strftime, sleep
 import subprocess
 import digitalio
 import board
@@ -64,7 +65,10 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=400)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
+    current_time = strftime("%m/%d/%Y %H:%M:%S") 
+    y = top
+    draw.text((x, y), current_time, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
