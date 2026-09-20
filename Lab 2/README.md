@@ -257,7 +257,9 @@ Do take advantage of having done the previous iteration to refine and simplify y
 
 https://github.com/user-attachments/assets/9a45cdc6-69b0-4419-8c6d-d564e91ba661
 
-[IMG_7101.MOV.zip](https://github.com/user-attachments/files/32444344/IMG_7101.MOV.zip)
+
+
+https://github.com/user-attachments/assets/308178ac-2bac-4f52-b5f3-0d02a3aff768
 
 
 
