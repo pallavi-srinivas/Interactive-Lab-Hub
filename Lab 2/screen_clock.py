@@ -10,10 +10,13 @@ matcha_image =  Image.open("matcha.png").convert("RGBA")
 matcha_image = matcha_image.resize((25,25))
 
 cranky_image = Image.open("cranky.png").convert("RGBA")
-matcha_image = matcha_image.resize((25,25))
+cranky_image = cranky_image.resize((50,50))
 
 mild_image = Image.open("mild.png").convert("RGBA")
+mild_image = mild_image.resize((50,50))
+
 happy_image = Image.open("happy.png").convert("RGBA")
+happy_image = happy_image.resize((50,50))
 
 MAX_MATCHA = 6
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -76,15 +79,32 @@ def draw_matcha(draw, image, width, height):
     hour = localtime().tm_hour
     num_cups = hour // (24//MAX_MATCHA)
     draw.rectangle((0, 0, width, height), outline=0, fill=(0,0,0))
+   
+    reaction_x = width//2 - 15
+    reaction_y = 5
+
+    if num_cups == 0:
+      image.paste(cranky_image, (reaction_x, reaction_y), cranky_image)
+        
+    elif num_cups == 1:
+      image.paste(mild_image, (reaction_x, reaction_y), mild_image)
+        
+    elif num_cups == 2:
+      image.paste(happy_image, (reaction_x, reaction_y), happy_image)
+        
+   
     spacing = width // (MAX_MATCHA + 1)
     y = height // 2 - 15
 
+    if num_cups >=3 or num_cups >= MAX_MATCHA:
+      image.paste(cranky_image, (reaction_x, reaction_y), cranky_image)
+
     for i in range(MAX_MATCHA):
-   	 cup_x = spacing * (i + 1) - 15
-   	 if i < num_cups:
-            image.paste(matcha_image, (cup_x, y), matcha_image)
-   	 else:
-            draw.ellipse((cup_x, y, cup_x + 30, y + 30), outline=(100, 100, 100), width=2)
+      cup_x = spacing * (i + 1) - 15
+      if i < num_cups:
+        image.paste(matcha_image, (cup_x, y), matcha_image)
+      else:
+        draw.ellipse((cup_x, y, cup_x + 30, y + 30), outline=(100, 100, 100), width=2)
 
 while True:
     # Draw a black filled box to clear the image.
@@ -99,5 +119,3 @@ while True:
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
-
-
