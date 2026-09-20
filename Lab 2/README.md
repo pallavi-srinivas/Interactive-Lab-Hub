@@ -1,5 +1,5 @@
 # Interactive Prototyping: The Clock of Pi
-**NAMES OF COLLABORATORS HERE**
+**Pallavi Srinivas (ps2269)**
 
 Does it feel like time is moving strangely during this semester?
 
@@ -197,7 +197,14 @@ We strongly discourage literal digital or analog clock display: Be creative.
 <img width="1110" height="766" alt="image" src="https://github.com/user-attachments/assets/5dbfd781-52d1-4b61-9cfb-fbb325bf12f6" />
 
 
-**Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
+**Ani Hadagali**
+I think its a great use case for a lot of working folks to track the amount of caffeine they have ingested! One question is: are you tracking just the caffeine intake, or do you also log how you are feeling? or does the amount of caffeine automatically determine the mood? Apart from that, I think it’ll be a good tool for people to have so they don’t over consume. Maybe you can add fun ways to allow people to track the kind of coffees they have, and give them a history of when it was drank.
+
+**Abiola Bolaji**
+The concept is a cool one to track how much caffeine someone consumed. One thing I may try and look into is potentially seeing the metric of measuring the caffeine. I think a cool idea would be something like a countdown until you crash after each caffeine drink.
+
+**Jonathon Tumalle**
+Tracker of caffeine is pretty useful. I was a little confused about whether the mood feature was an input from the user or something the system is predicting to be your mood based on caffeine intake. One idea to add on to what you have is to maybe use a battery visual so that whenever you take caffeine it fills up the battery and show you how much time it’ll last you based on the user’s inputted mood throughout the day. And maybe the battery gets capped at a smaller limit as you drink over a certain amount of caffeine
 
 # Lab 2 Part 2
 
