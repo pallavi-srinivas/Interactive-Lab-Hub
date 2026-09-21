@@ -199,6 +199,14 @@ We strongly discourage literal digital or analog clock display: Be creative.
 
 <img width="1110" height="766" alt="image" src="https://github.com/user-attachments/assets/5dbfd781-52d1-4b61-9cfb-fbb325bf12f6" />
 
+# Lab 2 Part 2
+
+## Prep 
+
+1. Pick up remaining parts for kit on Wednesday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
+
+2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
+**Put the feedback for your ideas here.**
 
 **Ani Hadagali**
 I think its a great use case for a lot of working folks to track the amount of caffeine they have ingested! One question is: are you tracking just the caffeine intake, or do you also log how you are feeling? or does the amount of caffeine automatically determine the mood? Apart from that, I think it’ll be a good tool for people to have so they don’t over consume. Maybe you can add fun ways to allow people to track the kind of coffees they have, and give them a history of when it was drank.
@@ -208,15 +216,6 @@ The concept is a cool one to track how much caffeine someone consumed. One thing
 
 **Jonathon Tumalle**
 Tracker of caffeine is pretty useful. I was a little confused about whether the mood feature was an input from the user or something the system is predicting to be your mood based on caffeine intake. One idea to add on to what you have is to maybe use a battery visual so that whenever you take caffeine it fills up the battery and show you how much time it’ll last you based on the user’s inputted mood throughout the day. And maybe the battery gets capped at a smaller limit as you drink over a certain amount of caffeine
-
-# Lab 2 Part 2
-
-## Prep 
-
-1. Pick up remaining parts for kit on Wednesday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
-
-2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
-**Put the feedback for your ideas here.**
 
 ## Update your Lab Hub
 
@@ -251,6 +250,8 @@ Do take advantage of having done the previous iteration to refine and simplify y
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
+updated_screen_clock.py contains the code for my clock titled "How Many Matcha's Can you Consume?". The clock is designed to guage how drink culture is so prevalent in modern society that people don't even register how much caffeine they have consumed as the day goes on, leading to dependencies and feelings of withdrawal.
+
 \*\*\***Take a video of your PiClock.**\*\*\*
 
 
@@ -263,11 +264,11 @@ https://github.com/user-attachments/assets/308178ac-2bac-4f52-b5f3-0d02a3aff768
 
 
 
-
-
-
-
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
+
+Utilized ChatGPT to figure out how to load images onto the Pi and to help figure out the equation necessary to convert hours/local time hour to correspond with the number of matcha's consumed.
+
+To make this better, I would look to having better animations that correspond to the feeling of being under-caffinated and upset, just right, over-caffinated, and crashing.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab.  Make sure the page for the group turn in is linked to your personal Interactive Lab Hub page. 
 
