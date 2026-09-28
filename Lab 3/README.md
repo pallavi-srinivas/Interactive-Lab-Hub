@@ -131,6 +131,32 @@ Available sizes, smallest first: `tiny.en`, `base.en`, `small.en`, `medium.en`. 
 
 \*\***Record a few seconds of your own speech (`arecord -d 5 -f cd -c 1 -r 16000 test.wav`) and transcribe it with at least two model sizes. Report the real-time factor for each. At what point does the accuracy improvement stop being worth the delay, for a system that has to answer you?**\*\*
 
+(.venv) pi@raspberrypipallavi:~/Interactive-Lab-Hub/Lab 3/speech-scripts $  arecord -d 5 -f cd -c 1 -r 16000 test.wav
+Recording WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+(.venv) pi@raspberrypipallavi:~/Interactive-Lab-Hub/Lab 3/speech-scripts $ python transcribe.py test.wav --model base.en
+
+Hello, my name is Paul.
+
+model            base.en (int8, beam=1)
+audio duration   5.00s
+model load       0.69s
+transcription    1.83s
+real-time factor 0.37x
+
+(Model load is a one-time cost per process. In an interactive system you load once and keep the model resident  which is what listen.py does.)
+(.venv) pi@raspberrypipallavi:~/Interactive-Lab-Hub/Lab 3/speech-scripts $ python transcribe.py test.wav --model small.en
+
+Hello, my name is Polly.
+
+model            small.en (int8, beam=1)
+audio duration   5.00s
+model load       1.25s
+transcription    5.46s
+real-time factor 1.09x
+
+(Model load is a one-time cost per process. In an interactive system you load once and keep the model resident  which is what listen.py does.)
+(.venv) pi@raspberrypipallavi:~/Interactive-Lab-Hub/Lab 3/speech-scripts $ 
+
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
 
 ## C. Turn-taking: knowing when someone has stopped talking
