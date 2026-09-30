@@ -110,6 +110,7 @@ The demo script also shows `--output-raw`, which streams audio to the speaker as
 (This shell file should be saved to your own repo for this lab.)
 
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
+In different voices, the tone and emotion that was invoked felt different. With the robotic voice, it can feel very impersonal. However, with another voice it can feel as if you are talking to another human being, which invokes more emotion.
 
 ## B. Speech to Text
 
@@ -157,6 +158,8 @@ real-time factor 1.09x
 (Model load is a one-time cost per process. In an interactive system you load once and keep the model resident  which is what listen.py does.)
 (.venv) pi@raspberrypipallavi:~/Interactive-Lab-Hub/Lab 3/speech-scripts $ 
 
+As we can see, neither of the models registered my name (Pallavi) correctly. However, the smaller model took longer to transcribe than the audio recording took place, making the bse.en model a better choice.
+
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
 
 ## C. Turn-taking: knowing when someone has stopped talking
@@ -170,14 +173,46 @@ We use a **voice activity detector** (VAD) to segment the microphone stream into
 (.venv) $ python listen.py
 ```
 
+Loading models...
+Input device: default
+Endpointing after 0.4s of silence. Ctrl-C to stop.
+
+[2.2s speech, 0.93s to transcribe]  Hello, my name is Paul of E.
+^C
+Stopped.
+
+
 Speak, pause, and watch it transcribe. Now change the endpointing threshold — the amount of silence the system requires before it decides your turn is over:
 
 ```
 (.venv) $ python listen.py --min-silence 0.2
 (.venv) $ python listen.py --min-silence 1.5
 ```
-
 \*\***Try both extremes, and something in between. Describe what each one feels like to talk to. Note specifically: at 0.2s, what kinds of normal speech get cut off? At 1.5s, what does the delay make the system seem like?**\*\*
+
+At 0.2s, it felt as if the pauses between words make the phrase I spoke register as two different inputs. Additionally, the transcription isn't correct, with "Hello" reading as "below" and "Pallavi" reading as "Polivy". The slight pause between "Hello" and "my name is Pallavi" split the phrase.
+
+0.2s:
+Loading models...
+Input device: default
+Endpointing after 0.2s of silence. Ctrl-C to stop.
+
+[0.5s speech, 0.83s to transcribe]  below.
+[1.5s speech, 0.89s to transcribe]  My name is Polivy.
+^C
+Stopped.
+
+
+At 1.5s, The whole phrase was transcribed together, with only my name being registered incorrectly, but that may be because of my ethnic name.
+
+1.5s:
+Loading models...
+Input device: default
+Endpointing after 1.5s of silence. Ctrl-C to stop.
+
+[1.9s speech, 0.99s to transcribe]  Hello, my name is Paul Ovi.
+^C
+Stopped.
 
 There is no correct value. A system that takes drink orders and a system that listens to someone think out loud want very different thresholds, and the right one depends on what your users are doing with their pauses.
 
@@ -200,6 +235,10 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 \*\***Please describe and document your process.**\*\*
 
 Your script should include the pauses. Where does your device wait, and for how long? You now know from Part C that this is a parameter you have to choose, not something that happens for free.
+
+<img width="5712" height="4284" alt="IMG_7285" src="https://github.com/user-attachments/assets/d3e5e280-5193-44fa-afba-1dbf8cb36d71" />
+
+
 
 ## E. Acting out the dialogue
 
