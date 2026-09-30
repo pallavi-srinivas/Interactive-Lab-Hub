@@ -236,6 +236,10 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Your script should include the pauses. Where does your device wait, and for how long? You now know from Part C that this is a parameter you have to choose, not something that happens for free.
 
+<img width="5712" height="4284" alt="IMG_7285" src="https://github.com/user-attachments/assets/d3e5e280-5193-44fa-afba-1dbf8cb36d71" />
+
+
+
 ## E. Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing. Please record this interaction (for example, using Zoom's record feature).
