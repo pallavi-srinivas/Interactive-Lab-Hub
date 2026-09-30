@@ -110,6 +110,7 @@ The demo script also shows `--output-raw`, which streams audio to the speaker as
 (This shell file should be saved to your own repo for this lab.)
 
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
+In different voices, the tone and emotion that was invoked felt different. With the robotic voice, it can feel very impersonal. However, with another voice it can feel as if you are talking to another human being, which invokes more emotion.
 
 ## B. Speech to Text
 
@@ -156,6 +157,8 @@ real-time factor 1.09x
 
 (Model load is a one-time cost per process. In an interactive system you load once and keep the model resident  which is what listen.py does.)
 (.venv) pi@raspberrypipallavi:~/Interactive-Lab-Hub/Lab 3/speech-scripts $ 
+
+As we can see, neither of the models registered my name (Pallavi) correctly. However, the smaller model took longer to transcribe than the audio recording took place, making the bse.en model a better choice.
 
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
 
