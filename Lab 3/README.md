@@ -173,14 +173,46 @@ We use a **voice activity detector** (VAD) to segment the microphone stream into
 (.venv) $ python listen.py
 ```
 
+Loading models...
+Input device: default
+Endpointing after 0.4s of silence. Ctrl-C to stop.
+
+[2.2s speech, 0.93s to transcribe]  Hello, my name is Paul of E.
+^C
+Stopped.
+
+
 Speak, pause, and watch it transcribe. Now change the endpointing threshold — the amount of silence the system requires before it decides your turn is over:
 
 ```
 (.venv) $ python listen.py --min-silence 0.2
 (.venv) $ python listen.py --min-silence 1.5
 ```
-
 \*\***Try both extremes, and something in between. Describe what each one feels like to talk to. Note specifically: at 0.2s, what kinds of normal speech get cut off? At 1.5s, what does the delay make the system seem like?**\*\*
+
+At 0.2s, it felt as if the pauses between words make the phrase I spoke register as two different inputs. Additionally, the transcription isn't correct, with "Hello" reading as "below" and "Pallavi" reading as "Polivy". The slight pause between "Hello" and "my name is Pallavi" split the phrase.
+
+0.2s:
+Loading models...
+Input device: default
+Endpointing after 0.2s of silence. Ctrl-C to stop.
+
+[0.5s speech, 0.83s to transcribe]  below.
+[1.5s speech, 0.89s to transcribe]  My name is Polivy.
+^C
+Stopped.
+
+
+At 1.5s, The whole phrase was transcribed together, with only my name being registered incorrectly, but that may be because of my ethnic name.
+
+1.5s:
+Loading models...
+Input device: default
+Endpointing after 1.5s of silence. Ctrl-C to stop.
+
+[1.9s speech, 0.99s to transcribe]  Hello, my name is Paul Ovi.
+^C
+Stopped.
 
 There is no correct value. A system that takes drink orders and a system that listens to someone think out loud want very different thresholds, and the right one depends on what your users are doing with their pauses.
 
