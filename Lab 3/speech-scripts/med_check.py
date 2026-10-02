@@ -131,7 +131,7 @@ def ask(message: str) -> str:
                 speaker.say(respond(heard))
                 return heard
 
-
+# to faciliate "texting" mechanism, using flask to create a webpage
 def run_check(message: str) -> str:
   latest["reply"] = ask(message)
   latest["status"] = "done"
@@ -173,7 +173,7 @@ async function poll() {
   const data = await (await fetch("/status")).json();
   document.getElementById("status").textContent = data.status;
   document.getElementById("reply").textContent = data.reply;
-  if (data.status === "listening") setTimeout(poll, 1000);
+  if (data.status === "Listening to user...") setTimeout(poll, 1000);
 }
 </script>
 """
