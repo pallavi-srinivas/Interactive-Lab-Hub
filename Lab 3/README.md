@@ -244,6 +244,12 @@ Your script should include the pauses. Where does your device wait, and for how 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing. Please record this interaction (for example, using Zoom's record feature).
 
+
+https://github.com/user-attachments/assets/87108adf-8704-4f1c-ad91-bbf5fd7cfc68
+
+
+
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 
@@ -251,14 +257,17 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 # Lab 3 Part 2
 
-For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
 
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings.
+   I think the design of the web-based interface could be a little bit more fleshed out and explicitly designed. I don't have much front-end experience so this was a little difficult (needed assistance from Cursor) but if I made it have a better UI, it would be a much better user experience.
+   
 2. What are other modes of interaction *beyond speech* that you might also use to clarify how to interact? In particular: how does someone know when the device is listening, and when it is thinking? You have a screen and an LED.
-3. Make a new storyboard, diagram and/or script based on these reflections.
-4. (optional) Integrate [input devices](inputs.md) in the system
+   I think next time I would add the light as a visual reminder in addition to the audio reminder.
+   
+4. Make a new storyboard, diagram and/or script based on these reflections.
+5. (optional) Integrate [input devices](inputs.md) in the system
 
 ## Prototype your system
 
@@ -267,39 +276,35 @@ The system should:
 * use one or more sensors
 * require participants to speak to it
 
-*Document how the system works.*
+Elderly people face a multitude off health problems that require them to undergo treatments and take medication regularly. Additionally, many elderly people don't have immediate family nearby who can assist them physically, and text reminders can go over their heads as they aren't as "wired in" or "plugged in" to the world as younger people are.
 
-*Include videos or screencaptures of both the system and the controller.*
-
-
+With this device, family members and other loved ones can send reminders remotely with exact text-to-speech registration and enables real-time communication.
 https://github.com/user-attachments/assets/de16243f-6a1e-470c-839a-1bb049a80f14
 
 
 
 ## Test the system
 
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard *after* the interaction, but we recognize that can be hard.)
+
+https://github.com/user-attachments/assets/a6674252-c84e-42e1-8cee-3260bcf7036f
+https://github.com/user-attachments/assets/225a7053-3e49-46a2-8b71-6e74870b88ef
+
+
+
+
+
+
 
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+\*\**The system was very timely and the messages the "caretaker" sends to the system was delivered immediately. I think what could be improved is the accuracy of the model that is used for the transcriptions.*\*\*
 
 ### What worked well about the controller and what didn't?
-\*\**your answer here*\*\*
+\*\**The controller was good, again the biggest thing was that there could be an optimization of the model used to transcribe the speech sent through the mic.*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 \*\**your answer here*\*\*
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 \*\**your answer here*\*\*
-
-<details>
-  <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
-
-  **Before submitting your README.md:**
-  - This readme.md file has a lot of extra text for guidance.
-  - Remove all instructional text and example prompts from this file.
-  - You may either delete these sections or use the toggle/hide feature in VS Code to collapse them for a cleaner look.
-  - Your final submission should be neat, focused on your own work, and easy to read for grading.
-</details>
