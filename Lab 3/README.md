@@ -251,7 +251,7 @@ https://github.com/user-attachments/assets/87108adf-8704-4f1c-ad91-bbf5fd7cfc68
 
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
-
+The dialogue obviously came out a little more forced given the fact that the action is intended to be remote (messenger should be able to be in a different location as compared to the elderly person). For that reason, the interaction felt a little bit robotic at times.
 
 ---
 
@@ -264,10 +264,8 @@ https://github.com/user-attachments/assets/87108adf-8704-4f1c-ad91-bbf5fd7cfc68
    I think the design of the web-based interface could be a little bit more fleshed out and explicitly designed. I don't have much front-end experience so this was a little difficult (needed assistance from Cursor) but if I made it have a better UI, it would be a much better user experience.
    
 2. What are other modes of interaction *beyond speech* that you might also use to clarify how to interact? In particular: how does someone know when the device is listening, and when it is thinking? You have a screen and an LED.
-   I think next time I would add the light as a visual reminder in addition to the audio reminder.
+   I think next time I would add the light as a visual reminder in addition to the audio reminder. This would be especially helpful given that there are a variety of impairements elderly face so it is good to consider from an accessibility point of view.
    
-4. Make a new storyboard, diagram and/or script based on these reflections.
-5. (optional) Integrate [input devices](inputs.md) in the system
 
 ## Prototype your system
 
@@ -301,10 +299,10 @@ Answer the following:
 \*\**The system was very timely and the messages the "caretaker" sends to the system was delivered immediately. I think what could be improved is the accuracy of the model that is used for the transcriptions.*\*\*
 
 ### What worked well about the controller and what didn't?
-\*\**The controller was good, again the biggest thing was that there could be an optimization of the model used to transcribe the speech sent through the mic.*\*\*
+\*\**The controller was good, again the biggest thing was that there could be an optimization of the model used to transcribe the speech sent through the mic. I think also the timing between the user speaking and the transcription appearing in the web app would be very beneficial.*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 \*\**your answer here*\*\*
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-\*\**your answer here*\*\*
+\*\**I think the dataset of interaction could entail gathering a CSV file of common phrases used in different conversations to be able to have the speaker speak certain phrases instead of relying on user input. It would also be interesting to add the use of a camera: in terms of interaction design it would be cool but maybe not good when considering user privacy.*\*\*
