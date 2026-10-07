@@ -51,7 +51,7 @@ class Speaker:
     def say(self, text: str) -> float:
         """Speaks the text. Returns seconds until the first audio was ready."""
         # to debug w/o speaker: print text speaker would say
-        print(f" [speaker] {text}", flush=True)
+        #print(f" [speaker] {text}", flush=True)
         t0 = time.perf_counter()
         first_audio_at = None
         for chunk in self.voice.synthesize(text):
@@ -173,7 +173,7 @@ async function poll() {
   const data = await (await fetch("/status")).json();
   document.getElementById("status").textContent = data.status;
   document.getElementById("reply").textContent = data.reply;
-  if (data.status === "Listening to user...") setTimeout(poll, 1000);
+  if (data.status === "listening") setTimeout(poll, 1000);
 }
 </script>
 """
